@@ -1,0 +1,80 @@
+@font-face {
+    font-family: GothamPro;
+    src: url("../fonts/GothamPro/GothamPro.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer,header,
+hgroup, menu, nav, section { display: block; }
+
+html,
+body {
+	height: 100%;
+	font-family: GothamPro, sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+header{
+	padding: 16px 0;
+	border-bottom: 2px solid rgba(20,20,20, 0.5);
+}
+
+.no-ref:active,
+.no-ref:hover,
+.no-ref{
+	text-decoration: none;
+  	color: #333;
+}
+
+h2{
+	padding: 8px 0;
+	font-size: 2rem;
+}
+
+.btn{
+	margin-bottom: 6px;
+}
+
+.content {
+	flex: 1 0 auto;
+	margin-bottom: 24px;
+}
+
+.my-container{
+	margin-top: 16px;
+}
+
+#menu-container .button-wrapper{
+	margin-bottom: 12px;
+}
+
+#add-country-form-container
+{
+	display: none;
+}
+
+#table-container
+{
+	display: none;
+}
+
+footer {
+	flex: 0 0 auto;
+	min-height: 50px;
+	background-color: rgba(20,20,20, 0.95)
+
+}
+
+.footer-text{
+	margin-top: 6px;
+	font-size: 20px;
+}
